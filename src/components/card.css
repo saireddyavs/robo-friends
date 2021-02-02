@@ -5,13 +5,15 @@
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
 }
-
 .wrapper,
 .wrapper .img-area,
 .social-icons a,
 .buttons button {
   background: #ecf0f3;
   box-shadow: -3px -3px 7px #ffffff, 3px 3px 5px #ceced1;
+}
+.topmostwrapper {
+  display: inline-block;
 }
 .wrapper {
   position: relative;
@@ -22,6 +24,7 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  margin: 20px;
 }
 .wrapper .icon {
   font-size: 17px;

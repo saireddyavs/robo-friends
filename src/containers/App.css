@@ -10,3 +10,10 @@ body {
     radial-gradient(gray 2px, transparent 0);
   background-size: 30px 30px, 30px 30px;
 }
+
+.container {
+  display: inline;
+  float: left;
+  white-space: nowrap;
+  overflow: hidden;
+}
