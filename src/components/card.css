@@ -16,7 +16,7 @@
 .wrapper {
   position: relative;
   width: 350px;
-  padding: 30px;
+  padding: 10px;
   border-radius: 10px;
   display: flex;
   align-items: center;
@@ -29,7 +29,7 @@
   position: absolute;
   cursor: pointer;
   opacity: 0.7;
-  top: 15px;
+  top: 5px;
   height: 35px;
   width: 35px;
   text-align: center;
@@ -78,7 +78,7 @@
   font-size: 16px;
 }
 .wrapper .social-icons {
-  margin: 15px 0 25px 0;
+  margin: 5px 0px 5px 0;
 }
 .social-icons a {
   position: relative;
