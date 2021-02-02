@@ -9,8 +9,8 @@ const Card = ({
   return (
     <div className="topmostwrapper">
       <div className="wrapper grow dib">
-        <div className="img-area grow">
-          <div className="inner-area">
+        <div className="img-area ">
+          <div className="inner-area grow">
             <img
               src={`https://robohash.org/${id}?size=200x200`}
               alt="robots"
