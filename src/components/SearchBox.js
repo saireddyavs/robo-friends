@@ -2,14 +2,14 @@ import React from "react";
 
 import "./SearchBox.css";
 
-const SearchBox = () => {
+const SearchBox = ({ SearchChange }) => {
     return (
         <div>
-           
-            <form class="searchbox" action="http://thecodeblock.com">
-                <input type="search" placeholder="Search" />
+
+            <div className="searchbox" >
+                <input type="search" placeholder="Search Your Robo Friend" onChange={SearchChange} />
                 <button type="submit" value="search">&nbsp;</button>
-            </form>
+            </div>
         </div>
 
 
