@@ -5,7 +5,7 @@ import "./cardlist.css"
 const CardList = ({ robots }) => {
     // console.log("here in card list", robots)
     return (
-        <div className="centre">
+        <div className="cen">
             {
                 robots.map((user, i) => {
                     return (
