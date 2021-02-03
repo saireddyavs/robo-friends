@@ -1,5 +1,6 @@
 import React from "react";
 import Card from "./card";
+import "./cardlist.css"
 
 const CardList = ({ robots }) => {
     console.log("here in card list", robots)

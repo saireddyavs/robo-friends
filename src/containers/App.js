@@ -1,7 +1,8 @@
 import "./App.css";
 import React, { Component } from "react";
 
-import CardList from "../components/cardlist"
+import CardList from "../components/cardlist";
+import SearchBox from "../components/SearchBox";
 
 
 
@@ -32,6 +33,7 @@ class App extends Component {
     else {
       return (
         <div>
+          <SearchBox />
           <CardList robots={robos} />
         </div>);
     }
